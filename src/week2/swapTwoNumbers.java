@@ -18,5 +18,6 @@ public class swapTwoNumbers {
         System.out.println(b);
         a = a^b;
 
+
     }
 }
