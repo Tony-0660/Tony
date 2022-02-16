@@ -13,12 +13,12 @@ public class finra {
     public static void FINRA() {
         String result = "";
         for (int i = 1; i <= 30; i++) { //iterate from 1 to 30
-            if (i % 5 == 0 && i % 3 == 0)
+            if (i % 5 == 0 && i % 3 == 0) //multiple of both 3 and 5, print "FINRA" instead of the number.
                 result += "FINRA ";
-            else if (i % 5 == 0)
+            else if (i % 5 == 0) //multiple of 5, print "RA" instead of the number.
                 result += "RA ";
             else if (i % 3 == 0)
-                result += "FIN ";
+                result += "FIN ";  //multiple of 3, print "FIN" instead of the number.
             else
                 result += i + " ";
         }
@@ -35,23 +35,6 @@ public class finra {
  }
  */
 
-/*
-    public static void FINRA() {
-        String[] myarr= new String[30];
 
-        for( int i=0; i <= 29; i++ )
-            myarr[i] = ""+(i+1);
-
-        for(int j=0; j<myarr.length; j++)
-            if(Integer.valueOf(myarr[j])%3==0 && new Integer(myarr[j])%5==0)
-                myarr[j]="FINRA";
-            else if (Integer.valueOf(myarr[j])%3==0)
-                myarr[j]="FIN";
-            else if (Integer.valueOf(myarr[j])%5==0)
-                myarr[j]="RA";
-
-        System.out.println(Arrays.toString(myarr));
-    }
-*/
 
 }

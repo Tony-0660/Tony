@@ -5,8 +5,9 @@ public class divisionWithoutOperator {
         //Write a method that can divide two numbers without using division operator
 
         divides(6,3);
-        divides(4,5);
+        divides(4,2);
         divides(3,0);
+
     }
 
     public static void divides(int num1, int num2) {
