@@ -23,4 +23,5 @@ public class divisionWithoutOperator {
         System.out.println(count+" and remainder is "+num1);
     }
 
+
 }
