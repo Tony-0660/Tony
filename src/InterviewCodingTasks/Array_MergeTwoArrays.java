@@ -1,6 +1,16 @@
 package InterviewCodingTasks;
 
+import java.util.Arrays;
+
 public class Array_MergeTwoArrays {
+    public static void main(String[] args) {
+
+        int[] arr3 = {4, 5, 6};
+        int[] arr4 = {1, 2, 3};
+       // concatTwoArrays(arr3, arr4);
+        System.out.println(Arrays.toString(concatTwoArrays(arr3, arr4)));
+
+    }
 
     /*
     Write a return method that can concat two arrays
@@ -18,9 +28,6 @@ public class Array_MergeTwoArrays {
         for (int each : arr2) {
             result[i++] = each;
         }
-
         return result;
-
     }
-
 }
