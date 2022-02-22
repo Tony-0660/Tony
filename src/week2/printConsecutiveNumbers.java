@@ -28,7 +28,7 @@ public class printConsecutiveNumbers {
         Codility
         17
 */
-      solution(5);
+      solution(15);
 
     }
 
