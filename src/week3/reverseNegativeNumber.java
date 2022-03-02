@@ -15,6 +15,8 @@ public class reverseNegativeNumber {
         if(num < 0) {
             str = "-"+str.substring(0, str.length()-1);
         }
+
         return Integer.valueOf(str);
     }
 }
+

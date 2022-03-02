@@ -2,7 +2,13 @@ package test;
 
 public class math {
     public static void main(String[] args) {
-        int a=1/10;
-        System.out.println(a);
+        try {
+            int a = 10 / 0;
+
+        } finally {
+            System.out.println("catch");
+        }
+
+
     }
 }
