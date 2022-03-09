@@ -9,7 +9,7 @@ public class SameLetters {
     same("abc",  "abb"); -> false:*/
     public static boolean same(String a, String b) {
         char[] ch1 = a.toCharArray();
-        char[]  ch2 = b.toCharArray();
+        char[] ch2 = b.toCharArray();
         Arrays.sort(ch1);
         Arrays.sort(ch2);
         String a1="", a2="";
