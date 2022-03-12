@@ -2,8 +2,10 @@ package InterviewCodingTasks;
 
 public class Number_Fibonacci {
 
-    public int fibonacci(int num) {
-
+    public static void main(String[] args) {
+        System.out.println(fibonacci(5));
+    }
+    public static int fibonacci(int num) {
         int result = 0;
         int j = 0;
         int z = 1;

@@ -6,8 +6,12 @@ public class String_Reverse {
     Write a function that can reverse String
         Ex: Reverse("ABCD"); ==> DCBA
      */
+    public static void main(String[] args) {
+        System.out.println(StrReverse("ABCD"));
+    }
 
-    public String StrReverse(String str) {
+
+    public static String StrReverse(String str) {
 
         String reverse="";
 
