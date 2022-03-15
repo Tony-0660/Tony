@@ -7,7 +7,7 @@ public class findUnique {
     public static void main(String[] args) {
         /*Write a return  method that can find the unique characters from the String
         Ex:  unique("AAABBBCCCDEF")  ==>  "DEF";*/
-
+        System.out.println(Unique("AAABBBCCCDEF"));
         System.out.println(unique("AAABBBCCCDEF"));
     }
     public static String Unique(String str) {
@@ -16,13 +16,11 @@ public class findUnique {
 
         for(String each : str.split(""))
             result +=(  (Collections.frequency(Arrays.asList(str.split("")), each)) ==1 ) ? each : "";
-
         return result;
-
     }
     public static String unique(String str) {
 
-        String[ ] arr=str.split("");
+        String[] arr=str.split("");
 
         String unique1="";
 
@@ -32,11 +30,9 @@ public class findUnique {
                 if(arr[i].equals(arr[j]) )
                     num++;
             }
-
             if(num==1)
                 unique1+=arr[j];
         }
-
         return unique1;
     }
 }
