@@ -12,9 +12,11 @@ public class String_PassWordValidation {
 
         if all requirements above are met, the method returns true, otherwise returns false
      */
+    public static void main(String[] args) {
+        System.out.println(passwordIsValid("Ab*1Ab"));
+    }
 
-
-    public boolean passwordIsValid(String password) {
+    public static boolean passwordIsValid(String password) {
 
         boolean hasLowerCaseChar = password.matches("(.*[a-z].*)"),
                 hasUpperCaseChar = password.matches("(.*[A-Z].*)"),

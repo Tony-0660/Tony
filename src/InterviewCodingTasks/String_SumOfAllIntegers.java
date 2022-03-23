@@ -5,7 +5,9 @@ public class String_SumOfAllIntegers {
     /*
     return the sum of all integers found in the parameter String
      */
-
+    public static void main(String[] args) {
+        System.out.println(getSumOfNumbers("12 java 5 apple 3"));
+    }
 
     public static int getSumOfNumbers(String s) {
         /*
