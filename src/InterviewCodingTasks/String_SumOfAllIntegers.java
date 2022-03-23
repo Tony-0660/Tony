@@ -1,5 +1,7 @@
 package InterviewCodingTasks;
 
+import java.util.Arrays;
+
 public class String_SumOfAllIntegers {
 
     /*
@@ -21,11 +23,10 @@ public class String_SumOfAllIntegers {
         int sum = 0;
 
         String[] numbers = s.replaceAll("[\\D]+"," ").split(" ");
-
+        System.out.println(Arrays.toString(numbers));
         for(String each : numbers){
                 sum+=Integer.parseInt(each);
         }
-
         return sum;
     }
 
