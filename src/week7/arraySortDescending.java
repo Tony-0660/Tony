@@ -1,11 +1,17 @@
 package week7;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class arraySortDescending {
   /*Write a return method that can sort an int array in descending order without using the sort method of the Arrays class
 Ex: int[] arr = {10,20,7, 8, 90};
 arr = Sort(arr); ==> {90, 20, 10, 8, 7};*/
+  public static void main(String[] args) {
+      System.out.println(Arrays.toString(Sort(new int[] {150,5,8,9,15})));
+
+      SortingArrayDesc( new int[] {200,15,8,9,15});
+  }
 
     public static int[] Sort(int[] a) {
         ArrayList<Integer> list=new ArrayList<Integer>();
@@ -42,5 +48,6 @@ arr = Sort(arr); ==> {90, 20, 10, 8, 7};*/
         for(int i=0; i < list.size(); i++) {
             arr[i] = list.get(i);
         }
+        System.out.println(list);
     }
 }
