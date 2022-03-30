@@ -9,7 +9,6 @@ Ex: int[] arr = {10, 9, 8, 7};
 arr = Sort(arr); ==>{ 7, 8, 9, 10};*/
     public static void main(String[] args) {
         System.out.println(Arrays.toString(Sort(new int[] {150,5,8,9,15})));
-
        SortingArrayAsc( new int[] {200,15,8,9,15});
     }
     public static int[] Sort(int[] a) {
