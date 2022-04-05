@@ -9,7 +9,9 @@ Ex:
 input:  {1,0,2,0,3,0,4,0};
 output: [1, 2, 3, 4, 0, 0, 0, 0]*/
     public static void main(String[] args) {
-
+        int[] d = moveZeros(new int[]{1,0,2,0,3,0,4,0});
+        System.out.println(Arrays.toString(d));
+        System.out.println(Arrays.toString(moveZeros(new int[]{7,0,2,0,3,0,4,0})));
     }
 
     public static int[] moveZeros( int[]  arr ) {
