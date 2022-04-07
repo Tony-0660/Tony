@@ -21,7 +21,7 @@ public class from0_100 {
         System.out.println("\n-----------------");
 
         //solution three
-        for (int i = one; i <= 'd'; i++) { //'d'=100 ASCII
+        for (int i = anotherOne; i <= 'd'; i++) { //'d'=100 ASCII
             System.out.print(i + " ");
         }
         System.out.println("\n-----------------");
