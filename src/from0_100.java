@@ -2,7 +2,7 @@ import java.time.Month;
 
 public class from0_100 {
     public static void main(String[] args) {
-
+//Print from 1 to 100 without using any numbers in your code:
         //solution one
         String ten = "AaronCydeo";
         String nine = "AaronSDET";
@@ -15,7 +15,7 @@ public class from0_100 {
 
         //solution two
         int anotherOne = 'a' / 'a'; //97/97=1 ASCII
-        for (int i = one; i <= (ten.length() * ten.length()); i++) {
+        for (int i = anotherOne; i <= (ten.length() * ten.length()); i++) {
             System.out.print(i + " ");
         }
         System.out.println("\n-----------------");
