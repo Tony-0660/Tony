@@ -1,4 +1,4 @@
-public class aleks {
+public class format {
 
         static int start =    1;
         public static void main(String[] args) {

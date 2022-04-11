@@ -16,9 +16,10 @@ public class RemoveSomeValues {
         list1 = list2;
         System.out.println(list1);
 
+        System.out.println(remove2(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 101, 200, 300))));
     }
         //solution2
-        public List<Integer> remove2(List<Integer> list){
+        public static List<Integer> remove2(List<Integer> list){
             list.removeIf(number -> number > 100);
             return list;
         }
