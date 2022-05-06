@@ -1,4 +1,4 @@
-package week2;
+package popup;
 
 public class swapTwoNumbers {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class swapTwoNumbers {
         int  a = 10;      int  b  = 20;
         System.out.println("first a: "+a);
         System.out.println("first b: "+b);
-        a = a + b; //a is 30 now
+        a = a +b; //a is 30 now
         b = a - b; //b is 10 now
         a = a - b; //a is 20 now
         System.out.println("new a: "+a);
