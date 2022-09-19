@@ -12,7 +12,7 @@ public class Array_SumOfElementCloseTo0 {
         consider the positive element to be "closer" to zero than the negative one.
         */
 
-        int b[] = new int[2];
+        int[] b = new int[2];
         int z = 0;
         for (int i = 0; i < a.length; i++)
             for (int j = i + 1; j < a.length; j++) {

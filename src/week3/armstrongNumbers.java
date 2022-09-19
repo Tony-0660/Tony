@@ -16,7 +16,7 @@ public class armstrongNumbers {
             b = b + (a * a * a);//b=0+(3*3*3)=27 //b=27+(5*5*5)=152 //b=152+(1*1*1)=153
         }
 
-        return (c == b) ? true : false; //153 == 153
+        return c == b; //153 == 153
     }
 
 }

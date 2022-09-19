@@ -2,6 +2,7 @@ package week8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class MoveZerosToTheEnd {
     /*Write a method that can move all the zeros to  last indexes of the array (Do Not Use Sort Method)
@@ -22,7 +23,7 @@ output: [1, 2, 3, 4, 0, 0, 0, 0]*/
             countZero+= (each==0)?1:0;
         }
 
-        list.removeAll(Arrays.asList(0));
+        list.removeAll(List.of(0));
         arr = new int[arr.length];
         for(int i=0; i <arr.length-countZero; i++ ) {
             arr[i] = list.get(i);

@@ -15,7 +15,7 @@ public class Number_Armstrong {
             b = b + (a * a * a);
         }
 
-        return (c == b) ? true : false;
+        return c == b;
     }
 
 }

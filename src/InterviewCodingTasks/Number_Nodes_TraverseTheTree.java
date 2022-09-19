@@ -11,7 +11,7 @@ public class Number_Nodes_TraverseTheTree {
      */
 
     // Please do not change this interface
-    public static interface Node {
+    public interface Node {
         int getValue();
 
         List<Node> getChildren();

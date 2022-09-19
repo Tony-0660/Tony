@@ -24,9 +24,7 @@ public class String_PassWordValidation {
                 hasSpecialChar = password.matches("(.*[ -/, :-@].*)");
 
         if(password.length() >= 6 && !password.contains(" ")) {
-            if (hasLowerCaseChar && hasUpperCaseChar && hasDigits && hasSpecialChar) {
-                return true;
-            }
+            return hasLowerCaseChar && hasUpperCaseChar && hasDigits && hasSpecialChar;
         }
 
             return false;

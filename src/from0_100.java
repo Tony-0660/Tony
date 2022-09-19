@@ -14,7 +14,7 @@ public class from0_100 {
         System.out.println("\n-----------------");
 
         //solution two
-        int anotherOne = 'a' / 'a'; //97/97=1 ASCII
+        int anotherOne = 1; //97/97=1 ASCII
         for (int i = anotherOne; i <= (ten.length() * ten.length()); i++) {
             System.out.print(i + " ");
         }

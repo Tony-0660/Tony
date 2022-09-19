@@ -25,7 +25,7 @@ public class List_RemoveNameAhmed {
 
     // solution 2
     public List<String> remove2(List<String> names) {
-        names.removeAll(Arrays.asList("Ahmed"));
+        names.removeAll(List.of("Ahmed"));
         return names;
     }
 

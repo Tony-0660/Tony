@@ -9,7 +9,7 @@ Write a java operation to remove all the names named Ahmed
 */
 
         ArrayList<String> names = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
-        names.removeAll(Arrays.asList("Ahmed"));
+        names.removeAll(List.of("Ahmed"));
         System.out.println(names);
 
         //solution2

@@ -11,7 +11,7 @@ public class List_MoveAllZerosToTheEnd {
 
     public List<Integer> moveZerosToTheEnd(List<Integer> list) {
         int originalSize = list.size();
-        list.removeAll(Arrays.asList(0));
+        list.removeAll(List.of(0));
         int newSize = list.size();
         int totalNumberOfZeros = originalSize - newSize;
 

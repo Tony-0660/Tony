@@ -1,7 +1,7 @@
 public class dr {
     static String findLongestPalindrome(String str) {
         // to stores freq of characters in a string
-        int count[] = new int[256];
+        int[] count = new int[256];
 
         // find freq of characters in the input string
         for (int i = 0; i < str.length(); i++) {
