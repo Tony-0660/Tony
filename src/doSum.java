@@ -8,6 +8,9 @@ public class doSum {
     public static void doSum(float x, float y) {
         System.out.println("float sum is " + (x + y));
     }
+    public static void doSum(long x, long y) {
+        System.out.println("long sum is " + (x + y));
+    }
     public static void main(String[] args) {
         doSum(10, 20);
         doSum(10.0, 20.0);

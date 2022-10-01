@@ -35,6 +35,15 @@ public class from0_100 {
             System.out.print(i + " ");
         }
 
+        System.out.println("\n-----------------");
+
+        //solution five
+        int oneA = 'x' - 'x';
+
+        while (Integer.toString(oneA++).length() < "XXX".length()) {
+            System.out.print(oneA+ " ");
+        }
+
     }
 }
 
