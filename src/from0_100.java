@@ -2,7 +2,7 @@ import java.time.Month;
 
 public class from0_100 {
     public static void main(String[] args) {
-//Print from 1 to 100 without using any numbers in your code:
+        //Print from 1 to 100 without using any numbers in your code:
         //solution one
         String ten = "AaronCydeo";
         String nine = "AaronSDET";
@@ -40,9 +40,8 @@ public class from0_100 {
         //solution five
         int oneA = 'x' - 'x';
         while (Integer.toString(oneA++).length() < "XXX".length()) {
-            System.out.print(oneA+ " ");
+            System.out.print(oneA + " ");
         }
-
     }
 }
 
