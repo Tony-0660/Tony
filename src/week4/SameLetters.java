@@ -12,14 +12,14 @@ public class SameLetters {
         char[] ch2 = b.toCharArray();
         Arrays.sort(ch1);
         Arrays.sort(ch2);
-      /*  String a1="", a2="";
+        String a1="", a2="";
         for(char each: ch1)
             a1 +=each;
         for(char each: ch2)
             a2 +=each;
-        return  a1.equals(a2) ;*/
+        return  a1.equals(a2) ;
 
-        return Arrays.equals(ch1, ch2);
+       // return Arrays.equals(ch1, ch2);
     }
     public static boolean Same2(String str1, String str2) {
         str1 = new TreeSet<String>(Arrays.asList( str1.split("") ) ).toString( );
@@ -28,7 +28,7 @@ public class SameLetters {
     }
 
     public static void main(String[] args) {
-        System.out.println(same("abc", "cab"));
-        System.out.println(Same2("abc", "cab"));
+        System.out.println(same("abc", "caabb"));
+        System.out.println(Same2("abc", "caabb"));
     }
 }
