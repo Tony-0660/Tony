@@ -27,7 +27,7 @@ OutPut: "CD015ACCCG011899"*/
                 }
             }
         }
-
+        System.out.println(str2);
         String[] arr = str2.split(",");
         str = "";
 
