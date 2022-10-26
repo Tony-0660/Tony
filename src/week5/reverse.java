@@ -1,5 +1,7 @@
 package week5;
 
+import java.util.Collections;
+
 public class reverse {
    /* Write a return method that can reverse  String
     Ex: Reverse("ABCD"); ==> DCBA*/
