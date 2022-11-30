@@ -21,9 +21,6 @@ public class Map_SortByValues {
         System.out.println("sortByValue(map) = " + sortByValue(map));
 
     }
-
-
-
     /*
         Write a method that can sort the map by values
      */
