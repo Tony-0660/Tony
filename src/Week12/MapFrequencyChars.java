@@ -5,7 +5,10 @@ import java.util.Map;
 
 //Write a method that prints the frequency of each character from a String
 public class MapFrequencyChars {
-
+    public static void main(String[] args) {
+        String test = "AaronBaron";
+        FrequencyTest(test);
+    }
 
     public static void FrequencyTest(String  str ) {
         Map<Character, Integer> map = new LinkedHashMap<>();
