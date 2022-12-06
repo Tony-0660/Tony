@@ -10,6 +10,8 @@ public class arrayListSortAsc {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(5,55,4,44));
        SortingArrayListAsc(list);
+        SortingArrayListDesc(list);
+
     }
     public static void SortingArrayListAsc(List<Integer> list) {
 
@@ -24,7 +26,22 @@ public class arrayListSortAsc {
         }
         System.out.println(list);
     }
-    public static void SortingArrayListAsc(ArrayList<String> list) {
+    public static void SortingArrayListDesc(List<Integer> list) {
+
+        for (int i = 0; i < list.size(); i++) {
+            for (int j = 0; j < list.size(); j++) {
+                if (list.get(i) > list.get(j)) {
+                    Integer temp = list.get(i);
+                    list.set(i, list.get(j));
+                    list.set(j, temp);
+                }
+            }
+        }
+        System.out.println(list);
+    }
+
+    //work in progress for String Array
+  /*  public static void SortingArrayListAsc(ArrayList<String> list) {
 
         for (int i = 0; i < list.size(); i++) {
             for (int j = 0; j < list.size(); j++) {
@@ -36,5 +53,5 @@ public class arrayListSortAsc {
             }
         }
         System.out.println(list);
-    }
+    }*/
 }
