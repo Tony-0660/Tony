@@ -1,9 +1,15 @@
 package Week12;
 
+import javax.xml.stream.events.Characters;
 import java.util.HashMap;
 import java.util.Map;
 
 public class MapUniqueCharString {
+    /*Find Unique Characters of a string and put them in a map with the number of occurrences as 1
+    For example:
+            “aabccddeffft”
+    {b=1,e=1,t=1}*/
+
     public static void main(String[] args) {
 
         String str = "accabbcd";
