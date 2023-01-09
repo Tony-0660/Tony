@@ -2,7 +2,9 @@ package InterviewCodingTasks;
 
 public class Number_ReverseInteger {
 
-
+    public static void main(String[] args) {
+        System.out.println(reverse(-35));
+    }
 
     public static int reverse(int number){
         if(number < 10 && number >= 0){
