@@ -6,7 +6,7 @@ import java.util.*;
 public class mapMinValue {
     public static void main(String[] args) {
         Map<String, Integer> test= new HashMap<>();
-        test.put("Aaron", 1);
+        test.put("Aaron", 11);
         test.put("Baron", 5);
         test.put("Cydeo", 27);
         test.put("Canada", 100);

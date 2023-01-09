@@ -7,6 +7,7 @@ public class reverse {
        System.out.println(Reverse("abcd"));
        System.out.println(StrReverse("abcd"));
        strrev("abd");
+       coolReverse("aaron");
    }
 
    public static String StrReverse(String str) {
@@ -23,6 +24,13 @@ public class reverse {
    }
     public  static String  Reverse(String str) {
         return new StringBuffer(str).reverse().toString();
+    }
+    public static void coolReverse(String str){
+        String reverse="";
+        for (int i = 0; i < str.length(); i++) {
+            reverse=str.charAt(i)+reverse;
+        }
+        System.out.println(reverse);
     }
 
 }
